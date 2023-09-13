@@ -1,8 +1,8 @@
 module.exports = {
     HOST: 'localhost',
-    USER: 'root',
-    PASSWORD: '',
-    DB: 'ok_db',
+    USER: 'balimade_user',
+    PASSWORD: 'Balimadeinbali2023',
+    DB: 'balimade_db',
     dialect: 'mysql',
     pool: {
         max: 5,

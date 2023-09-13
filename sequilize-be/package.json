@@ -2,8 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend for test",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "startdev": "nodemon server.js",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "teguh",
@@ -13,5 +16,13 @@
     "express": "^4.18.2",
     "mysql2": "^3.6.1",
     "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.49.0",
+    "nodemon": "^1.18.10",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
